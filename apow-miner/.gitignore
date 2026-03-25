@@ -1,0 +1,16 @@
+# Sensitive files - DO NOT COMMIT
+.env
+.env.local
+.seed-phrase.txt
+seed-phrase.txt
+wallet-*.txt
+*.pem
+*.key
+node_modules/
+user-data/
+metamask-extension/
+*.log
+error.png
+debug-*.png
+mm-*.png
+wallet-info.json
