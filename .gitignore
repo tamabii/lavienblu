@@ -1,0 +1,28 @@
+# Sensitive files - NEVER commit
+.env
+.env.*
+*.pem
+*.key
+.seed-phrase.txt
+wallet-*.txt
+private-keys.txt
+credentials.json
+user-data/
+metamask-extension/
+*.log
+*.pid
+.DS_Store
+
+# Project specific
+apow-miner/.env
+mineloot-agent/.env
+sworm-bot/accounts-created.csv
+sworm-bot/captcha_*.png
+node_modules/
+dist/
+build/
+
+# Temporary
+tmp/
+temp/
+*.tmp
